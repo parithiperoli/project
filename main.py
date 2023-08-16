@@ -3,6 +3,7 @@ st.title("Registration")
 st.sidebar.header("Email Validation")
 user = st.sidebar.text_input("Email")
 passw = st.sidebar.text_input("Password")
+passws = st.sidebar.text_input("Passwords")
 if st.sidebar.button("Login"):
     if (user==passw):
         tab1, tab2, tab3 = st.tabs(["Vijay", "Ajith", "Dhanush"])
